@@ -27,7 +27,7 @@ LV_IMG_DECLARE(balloon);
 LV_IMG_DECLARE(mountain);
 LV_IMG_DECLARE(corro01);
 
-static const lv_img_dsc_t * anim_imgs[3] = {
+const lv_img_dsc_t *anim_imgs[] = {
     &balloon,
     &mountain,
     &corro01,
